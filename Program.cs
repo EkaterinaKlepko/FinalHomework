@@ -1,4 +1,4 @@
-﻿void SecondArrayWithIF(string[] array1, string[] array2)
+﻿void NewArray(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -22,3 +22,5 @@ void PrintArray(string[] array)
 
 string[] array1 = new string[5] {"1236", "23", "hel", "wow", "result"};
 string[] array2 = new string[array1.Length];
+NewArray(array1, array2);
+PrintArray(array2);
